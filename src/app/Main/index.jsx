@@ -12,16 +12,18 @@ function Main() {
     fetcher
   );
 
-  if (error) return <main>Unalbe to load countries.</main>;
+  if (error)
+    return <main className="font-bold text-5xl">{"Maybe not today;("}</main>;
   if (isLoading) return <main> loading skeleton</main>;
+
   return (
     <main className="relative w-full h-full bg-slate-100 text-black">
       <div className="bg-opacity-30 backdrop-blur-sm z-10 fixed font-bold text-5xl top-0 left-0 pl-9 pb-2 pt-4 right-0 bg-slate-100 border-none mr-4">
-        Let's see the{" "}
+        {"Let's see the "}
         <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
           Countries
         </span>
-        !
+        {"!"}
       </div>
       <ul className="w-full h-screen overflow-y-scroll p-6 pt-16 divide-y ">
         {countries.map((country) => (
