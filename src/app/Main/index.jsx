@@ -34,12 +34,12 @@ function Main() {
                   shadow-sm divide-x divide-slate-400 w-full flex items-center gap-2"
                 >
                   <div className="inline-flex items-center justify-center h-full">
-                    <div className="px-2 inline w-6 h-3 bg-slate-400 animate-pulse border-0" />
+                    <div className="px-2 inline w-7 h-4 bg-slate-400 animate-pulse border-0" />
                   </div>
                   <span className="inline-block mx-2 text-xl font-bold border-none w-[85px] h-[25px] bg-slate-400 animate-pulse "></span>
-                  <div className="inline-block h-full min-h-[1em] w-0.5 self-stretch bg-neutral-100 dark:bg-white/10"></div>
+                  <div className="inline-block h-full min-h-[22px] w-0.5 self-stretch bg-neutral-100 dark:bg-white/10"></div>
                   <span className="inline-block mx-2 text-base text-slate-400 w-[175px] h-[25px] bg-slate-400 animate-pulse"></span>
-                  <div className="inline-block h-full min-h-[1em] w-0.5 self-stretch bg-neutral-100 dark:bg-white/10"></div>
+                  <div className="inline-block h-full min-h-[22px] w-0.5 self-stretch bg-neutral-100 dark:bg-white/10"></div>
                   <span className="inline-block mx-2 text-base text-slate-400 w-[85px] h-[25px] bg-slate-400 animate-pulse"></span>
                 </div>
               </li>
